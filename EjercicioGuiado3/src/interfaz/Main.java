@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(){
         Scanner sc = new Scanner(System.in);
-        Sensor[] sensores = new Sensor[2];
+        Sensor[] sensores = new Sensor[5];
         for(int i = 0; i < sensores.length; i++){
             System.out.println("Sensor " + (i+1));
             System.out.print("Codigo: ");
