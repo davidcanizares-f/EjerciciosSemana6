@@ -54,7 +54,7 @@ public class AnalizadorCatalogo {
     }
 
     public Producto obtenerProductoMasCaro(){
-        Producto mayor = productos[0];
+        Producto mayor = null;
         for(int i = 0; i<productos.length; i++){
             if(productos[i] != null){
                 if(mayor == null || productos[i].getPrecio() > mayor.getPrecio()){
